@@ -21,11 +21,12 @@ A powerful, hyper-modular Gemini CLI plugin designed to autonomously scaffold, c
 
 ## 🚀 Getting Started
 
-1. **Link the Extension Locally:**
-   Navigate into the repository root and register the plugin to your local Gemini CLI environment:
+1. **Install the Extension:**
+   Install the plugin directly into your Gemini CLI environment using the repository URL:
    ```bash
-   gemini extensions link .
+   gemini extensions install https://github.com/dull-bird/gemini_extension_skill.git
    ```
+   *(If you have cloned the source code locally, you can alternatively run `gemini extensions install .` in the root folder).*
 
 2. **Generate your first component:**
    Open a new Gemini CLI session and use the built-in macro to construct complex plugins:

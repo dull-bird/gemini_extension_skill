@@ -21,11 +21,12 @@
 
 ## 🚀 快速开始
 
-1. **在本地链接此扩展：**
-   将终端导航至该项目根目录，并将插件注册到你本地的 Gemini CLI 环境中：
+1. **安装此扩展：**
+   直接将插件通过仓库地址安装到你的 Gemini CLI 环境中：
    ```bash
-   gemini extensions link .
+   gemini extensions install https://github.com/dull-bird/gemini_extension_skill.git
    ```
+   *（如果你已经完整下载了源码到本地，也可以在项目根目录下直接执行 `gemini extensions install .`）*
 
 2. **生成你的第一个组件：**
    开启一个新的 Gemini CLI 会话，使用内置宏构建复杂的插件：
