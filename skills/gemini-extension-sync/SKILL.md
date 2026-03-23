@@ -1,5 +1,5 @@
 ---
-name: sync-docs
+name: gemini-extension-sync
 description: Provides the ability and instructions to refresh and synchronize the offline Gemini CLI documentation by running the up-to-date python update script locally.
 ---
 
