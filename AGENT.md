@@ -18,6 +18,10 @@ When generating expansions, always prioritize reading the following core files w
 3. **`docs/cli/custom-commands.md`**: Read this when creating `commands/*.toml` files. It details argument injection (`{{args}}`), shell execution (`!{...}`), and file injection (`@{...}`).
 4. **`docs/hooks.md`** (or relevant hooks guide): Read this if the user asks you to intercept CLI events. Remember that hooks MUST output strict JSON to `stdout`.
 5. **`docs/cli/skills.md`**: Explains how to bundle `SKILL.md` inside an extension to create on-demand expertise.
+6. **`docs/references/anthropic-skill-creator.md`**: The official Anthropic Claude skill-creator blueprint. When generating any `SKILL.md`, you **MUST** adhere rigorously to its instructions:
+   - **Pushy Descriptions**: Use aggressive YAML descriptions overloaded with keywords and exact contexts to prevent AI "undertriggering".
+   - **Progressive Disclosure**: Keep the primary `SKILL.md` file concise (under 500 lines) and offload static assets, long code templates, or heavy instructions to a sibling `references/` directory.
+   - **Imperative, Explain-Why Styling**: Forego heavy-handed "MUSTs". Instead, use theory of mind explanations, write imperatively, and provide rigid output formatting templates.
 
 ### Workflow for Generating Extensions
 
