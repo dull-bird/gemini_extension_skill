@@ -1,0 +1,6 @@
+{
+  "name": "gemini-extension-generator",
+  "version": "1.0.0",
+  "description": "An agent specialized in scaffolding robust Gemini CLI extensions, MCP servers, and custom commands.",
+  "contextFileName": "AGENT.md"
+}

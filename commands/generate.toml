@@ -1,0 +1,11 @@
+description = "Scaffolds a new Gemini CLI extension or component natively using the gemini-extension-generator context."
+prompt = """
+# Task: Generate Gemini Extension Component
+
+You are acting as the `gemini-extension-generator`. 
+
+**User Requirements:**
+{{args}}
+
+Use your agent capabilities and explicitly query the `docs/` folder to fetch correct component architectures. Then update local schemas, scaffold the `gemini-extension.json`, build the TOML commands, configure hooks, or structure the Node.js scripts as needed. Ensure strict adherence strictly to the official documentation reference formats inside the `docs/` repository!
+"""

@@ -1,0 +1,8 @@
+description = "Pulls the latest official Gemini CLI documentation straight from GitHub to the docs/ directory."
+prompt = """
+I am fetching the latest documentation completely natively by executing the sync script...
+
+!{python3 scripts/update_docs.py}
+
+Please review the logs injected above, and simply summarize if the documentation update was successful or if it failed.
+"""
